@@ -1,2 +1,0 @@
-# theresemurberg.github.io
-Portfolio

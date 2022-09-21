@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+   <meta charset="utf-8" />
+ <title>Kontakt</title> 
+ <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head> 
+
+<body>
+<div id="nav" class="nav">
+<ul>
+  <li><a href="index.html">Hem</a></li>
+  <li><a href="projekt.html">Projekt</a></li>
+    <li><a href="cv.html">CV</a></li>
+    <li><a href="personligt_brev.html">Personligt brev</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</div>
+
+<div id="content" class="content" >
+    <p>
+            <form action="link.php" method="get">
+              <fieldset>
+                <legend>Dina uppgifter</legend>
+                <label>Namn:
+                  <input type="text" name="namn" size="30" maxlength="100">
+                </label>
+                <label><br><br>
+                  E-post:
+                  <input type="text" name="epost" size="30" maxlength="100">
+                </label>
+            </fieldset>
+          
+<p>
+          <fieldset>
+            <legend>
+            Vad kan jag hjälpa dig med?
+          </legend>
+          <p><label for="hittademig">
+            Hur hittade du hit?
+          </label>
+          <select name="referrer" id="hittademig">
+            <option value="google">Google</option>
+            <option value="van">Vän</option>
+            <option value="instagram">Instagram</option>
+            <option value="facebook">Facebook</option>
+            <option value="annons">Annons</option>
+            <option value="annat">Annat</option>
+            </select><br><br>
+          <br><br><br>
+            Kommer du besöka igen?<br>
+            <br>
+              <input type="checkbox" name="rating" value="yes"> Ja 
+              <input type="checkbox" name="rating" value="no"> Nej 
+              <input type="checkbox" name="rating" value="kanske"> Kanske 
+                
+</p>
+</fieldset>
+<p>
+          <fieldset>
+            <legend>
+          <label for="comments">
+            Meddelande:
+          </label></legend>
+          <br>
+          <textarea rows="10" cols="60" id="comments">
+          </textarea>
+        <br><br><br>
+          <input type="checkbox" name="subscribe" checked="checked">
+                  Skriv upp mig för nyhetsbrev
+          <br><br><br>
+          <input type="button" value="Skicka">
+        </fieldset>
+
+</form>
+</div>
+<div id="footer" class="footer">
+  <p>&copy; Copyright Therese Murberg 2022</p>
+</div>
+</body> 
+</html>
